@@ -1,3 +1,6 @@
-body {
-  background-image: url("imagens/fundo-madeira.png");
+@charset "UTF-8";
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
 }
