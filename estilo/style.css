@@ -3,6 +3,7 @@
   margin: 0px;
   padding: 0px;
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 html,
 body {
@@ -33,7 +34,7 @@ main {
   height: 475px;
   width: 269px;
 }
-.links {
+/* .links {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -57,4 +58,4 @@ main {
   background: url("../imagens/logo-github.jpg") no-repeat top left;
   background-size: cover;
   border-radius: 5px;
-}
+} */
