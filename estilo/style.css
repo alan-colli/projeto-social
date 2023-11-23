@@ -34,12 +34,13 @@ main {
   height: 475px;
   width: 269px;
 }
-/* .links {
+.links {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
   gap: 20px;
+  overflow-x: hidden;
 }
 
 #insta {
@@ -58,4 +59,20 @@ main {
   background: url("../imagens/logo-github.jpg") no-repeat top left;
   background-size: cover;
   border-radius: 5px;
-} */
+}
+#face {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  background: url("../imagens/logo-facebook.jpg") no-repeat top left;
+  background-size: cover;
+  border-radius: 5px;
+}
+#home {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  background: url("../imagens/logo-home.jpg") no-repeat top left;
+  background-size: cover;
+  border-radius: 5px;
+}
