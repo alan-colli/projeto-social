@@ -62,6 +62,7 @@ main {
   background: url("../imagens/logo-instagram.jpg") no-repeat top left;
   background-size: cover;
   border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
 }
 #git {
   display: flex;
@@ -70,6 +71,7 @@ main {
   background: url("../imagens/logo-github.jpg") no-repeat top left;
   background-size: cover;
   border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
 }
 #face {
   display: flex;
@@ -78,6 +80,7 @@ main {
   background: url("../imagens/logo-facebook.jpg") no-repeat top left;
   background-size: cover;
   border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
 }
 #home {
   display: flex;
@@ -86,4 +89,17 @@ main {
   background: url("../imagens/logo-home.jpg") no-repeat top left;
   background-size: cover;
   border-radius: 5px;
+  box-shadow: 2px 2px 5px black;
+}
+#insta:hover {
+  border: 2px solid white;
+}
+#git:hover {
+  border: 2px solid white;
+}
+#home:hover {
+  border: 2px solid white;
+}
+#face:hover {
+  border: 2px solid white;
 }
